@@ -1,0 +1,85 @@
+body {
+   
+    font-family: 'Marcellus SC', serif;
+    text-align: center;
+    background-image: url(../images/foto.jpg);
+    background-size: 100%;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+
+.form {
+    border: solid 5px rgb(11, 39, 80);
+    box-shadow: 5px 5px 5px 5px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+}
+
+.error {
+    color: rgb(11, 39, 80);
+    margin-left: 5px;
+}
+   
+span.error {
+    display: block;
+    margin-top: 3px;
+}
+
+h1 {
+    color: rgb(10, 10, 10);
+    text-shadow: 5px 5px 5px 5px rgb(119, 117, 117);
+}
+
+.campo {
+    color: rgb(36, 1, 1);
+}
+
+.button {
+    margin-top: 20px;
+    .bot {
+        background-color: grey;
+        color: aliceblue;
+    }
+}
+
+.tabla1 {
+    border: solid 2px black;   
+    // background-color: rgb(160, 193, 241);
+    width: 65%;
+    margin-left: 15%;
+}
+
+.columna {
+    text-align: justify;
+
+}
+
+.btn, .botonFiltro, .boton-volver {
+    background-color: rgb(106, 110, 109);
+    color: white;
+}
+
+.volver {
+    margin-top: 50px;
+}
+
+.filtro {
+    margin-bottom: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cormorant Upright', serif;
+}

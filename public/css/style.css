@@ -1,0 +1,84 @@
+body {
+  font-family: "Marcellus SC", serif;
+  text-align: center;
+  background-image: url(../images/foto.jpg);
+  background-size: 100%;
+}
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url("images/pageLoader.gif") 50% 50% no-repeat #f9f9f9;
+  opacity: 0.8;
+}
+
+.form {
+  border: solid 5px #0b2750;
+  box-shadow: 5px 5px 5px 5px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 10px;
+}
+
+.error {
+  color: #0b2750;
+  margin-left: 5px;
+}
+
+span.error {
+  display: block;
+  margin-top: 3px;
+}
+
+h1 {
+  color: #0a0a0a;
+  text-shadow: 5px 5px 5px 5px #777575;
+}
+
+.campo {
+  color: #240101;
+}
+
+.button {
+  margin-top: 20px;
+}
+.button .bot {
+  background-color: grey;
+  color: aliceblue;
+}
+
+.tabla1 {
+  border: solid 2px black;
+  width: 65%;
+  margin-left: 15%;
+}
+
+.columna {
+  text-align: justify;
+}
+
+.btn, .botonFiltro, .boton-volver {
+  background-color: #6a6e6d;
+  color: white;
+}
+
+.volver {
+  margin-top: 50px;
+}
+
+.filtro {
+  margin-bottom: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Cormorant Upright", serif;
+}
+
+/*# sourceMappingURL=style.css.map */

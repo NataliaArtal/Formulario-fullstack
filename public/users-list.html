@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Users</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet">
+</head>
+<body>
+  <h1>Users</h1>
+  <p>List</p>
+  <div class="filtro">
+    <h3>Filtro de busqueda</h3>                
+    <input type="text" placeholder="Buscar" id="buscar">
+    <button class="botonFiltro" id="boton-filtro">Buscar</button>         
+  </div> 
+  <div>
+    <table id="lista-usuarios" class="tabla1">
+      <tr class="tabla">
+        <th class="columna">Nombre</th>
+        <th class="columna">Apellido</th>
+        <th class="columna">Telefono</th>
+        <th class="columna">Mail</th>
+      </tr>
+    </table>
+  </div>    
+  <div class="volver">
+    <button class="boton-volver" id="boton-volver">Crear un nuvo usuario</button>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="/javascripts/user.js" ></script>
+</body>
+</html>
